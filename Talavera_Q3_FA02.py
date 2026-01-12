@@ -20,3 +20,21 @@ Price of Milk in Store B: 72
 Prices of Rice across all stores: [52, 50, 55]
 Updating Bread price in Store B to 47.
 Updated prices for Bread: [45, 47, 46]
+
+code 
+prices = [
+    [52, 50, 55],    # Rice
+    [75, 72, 78],    # Milk
+    [45, 48, 46],    # Bread
+    [8, 9, 8.5],     # Eggs
+    [12, 11, 13]     # Apples
+]
+
+print("Price of Milk in Store B:", prices[1][1])
+
+print("Prices of Rice across all stores:", prices[0])
+
+print("Updating Bread price in Store B to 47.")
+prices[2][1] = 47
+
+print("Updated prices for Bread:", prices[2])
